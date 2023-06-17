@@ -1,0 +1,245 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 14126616200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Job Application",
+        "description": "",
+        "id": "harding--website-as-a-user-i-want-to-navigate-to--website;job-application;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 938100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 513057800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the Accept cookies option",
+            "match": {
+              "location": "MyStepdefs.iClickOnTheAcceptCookiesOption()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 272094100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on careers button",
+            "match": {
+              "location": "MyStepdefs.iClickOnCareersButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1376600800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click Lanside  Option from the dropdown",
+            "match": {
+              "location": "MyStepdefs.iClickLansideOptionFromTheDropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1389395400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on SeeVacancy",
+            "match": {
+              "location": "MyStepdefs.iClickOnSeeVacancy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 723304000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on ProcurementCoordinator",
+            "match": {
+              "location": "MyStepdefs.iClickOnProcurementCoordinator()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1396153200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on Apply",
+            "match": {
+              "location": "MyStepdefs.iClickOnApply()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 194054800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I send text to first name field \"rajvia\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rajvia",
+                  "offset": 33
+                }
+              ],
+              "location": "MyStepdefs.iSendTextToFirstNameField(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 175650100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I send text to last name field \"Bhatt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bhatt",
+                  "offset": 32
+                }
+              ],
+              "location": "MyStepdefs.iSendTextToLastNameField(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 205166900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I send text to email  field \"girshma3@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "girshma3@gmail.com",
+                  "offset": 29
+                }
+              ],
+              "location": "MyStepdefs.iSendTextToEmailField(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 187195600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I send text to telephone num field \"0246987466\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0246987466",
+                  "offset": 36
+                }
+              ],
+              "location": "MyStepdefs.iSendTextToTelephoneNumField(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 180698300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I send text to city name field \"chennai\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chennai",
+                  "offset": 32
+                }
+              ],
+              "location": "MyStepdefs.iSendTextToCityNameField(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I sucessfully submit the application",
+            "match": {
+              "location": "MyStepdefs.iSucessfullySubmitTheApplication()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "harding  website As a user I want to navigate to  website",
+    "description": "",
+    "id": "harding--website-as-a-user-i-want-to-navigate-to--website",
+    "keyword": "Feature",
+    "uri": "regiter.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Regression"
+      }
+    ]
+  }
+]
